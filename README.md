@@ -23,12 +23,9 @@ import machine
 import onewire, ds18x20
 import time
 
-# Configura el pin GPIO donde está conectado el sensor
 sensor_pin = machine.Pin(4)
 
-# Configura el bus OneWire
 ow = onewire.OneWire(sensor_pin)
 ds = ds18x20.DS18X20(ow)
 
-# Escanea los dispositivos DS18B20 conectados al bus
 roms = ds.scan()
