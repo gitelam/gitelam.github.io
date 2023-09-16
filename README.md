@@ -12,6 +12,7 @@ El tubo de Geiger-Müller, nombrado en honor a los físicos alemanes Hans Geiger
 Antes de profundizar en el tubo de Geiger-Müller, es esencial comprender el origen de la radiación ionizante. Esta radiación se produce debido a la desintegración de núcleos atómicos inestables. Cuando un núcleo radioactivo se descompone, libera partículas cargadas, como electrones (beta) o partículas alfa (núcleos de helio), y radiación electromagnética, como rayos gamma.
 
 ### Principio de Detección
+![Diagrama del fenómeno que permite detectar radiación](https://www.imagesco.com/geiger/img/gmtube_cutaway.jpg)
 
 El tubo de Geiger-Müller se basa en el principio de ionización. Cuando una partícula radiactiva atraviesa el tubo, colisiona con los átomos del gas contenido en el tubo (generalmente argón o nitrógeno). Estas colisiones liberan electrones de los átomos, creando pares de iones positivos y electrones libres. Estos electrones liberados por la ionización son el fundamento de la detección.
 
