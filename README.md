@@ -7,6 +7,7 @@ El tubo de Geiger-Müller, nombrado en honor a los físicos alemanes Hans Geiger
 ## Teoría del Funcionamiento
 
 ### Origen de la Radiación
+![Particulas cargadas con determinada energía cuya manifestación física es la radiación.](https://example.com/logo-markdown.png)
 
 Antes de profundizar en el tubo de Geiger-Müller, es esencial comprender el origen de la radiación ionizante. Esta radiación se produce debido a la desintegración de núcleos atómicos inestables. Cuando un núcleo radioactivo se descompone, libera partículas cargadas, como electrones (beta) o partículas alfa (núcleos de helio), y radiación electromagnética, como rayos gamma.
 
