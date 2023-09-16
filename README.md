@@ -9,6 +9,8 @@ Este código en Python es parte de un prototipo de medidor de temperatura diseñ
 ## Prototipo
 El **Prototipo de Medidor de Temperatura** es un proyecto que se centra en la creación de un dispositivo rudimentario pero funcional para medir la temperatura corporal de manera precisa. La idea principal es demostrar la viabilidad de utilizar sensores biométricos en dispositivos de salud y promover el desarrollo de futuros dispositivos médicos más avanzados.
 
+![Sensor DS18B20](https://electrocredible.com/wp-content/uploads/2023/03/ds18b20-with-pico-schematic.webp)
+
 ## Funcionalidad Básica
 El prototipo incluye las siguientes características clave:
 
@@ -20,7 +22,6 @@ El prototipo incluye las siguientes características clave:
 
 ## Aplicación en Dispositivos de Salud
 El prototipo tiene un potencial significativo en el campo de la salud. Puede ser el primer paso hacia el desarrollo de dispositivos médicos que utilicen sensores biométricos para monitorear la salud de los pacientes. Además, su diseño modular permite la integración en consultorios médicos de base y su acoplamiento a camillas o mesillas de chequeo médico.
-
 
 
 # Origen del Sensor de Temperatura DS18B20
