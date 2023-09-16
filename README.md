@@ -3,12 +3,27 @@
 ## Idea
 El prototipo de Medidor de Temperatura tiene como objetivo principal la creación de un esbozo funcional de un dispositivo de seguimiento de la salud personal. Este prototipo se enfoca en la medición de la temperatura corporal, pero su diseño es esquemático y simplificado para fines de demostración y desarrollo temprano. Se contempla su potencial en futuros dispositivos de salud más avanzados.
 
-
 ## Resumen
 Este código en Python es parte de un prototipo de medidor de temperatura diseñado para demostrar la funcionalidad básica de medición de temperatura corporal utilizando un sensor DS18B20 y una Raspberry Pi Pico W. El prototipo muestra los valores de temperatura en la consola en tiempo real.
 
-# Origen del Sensor de Temperatura DS18B20
+## Prototipo
+El **Prototipo de Medidor de Temperatura** es un proyecto que se centra en la creación de un dispositivo rudimentario pero funcional para medir la temperatura corporal de manera precisa. La idea principal es demostrar la viabilidad de utilizar sensores biométricos en dispositivos de salud y promover el desarrollo de futuros dispositivos médicos más avanzados.
 
+## Funcionalidad Básica
+El prototipo incluye las siguientes características clave:
+
+- **Medición de Temperatura:** Utiliza el sensor de temperatura DS18B20 para medir la temperatura corporal de los usuarios.
+
+- **Interfaz de Consola:** Los valores de temperatura se muestran en la consola de la Raspberry Pi Pico W en tiempo real.
+
+- **Potencial de Escalabilidad:** Aunque es esquemático, se ha diseñado para ser escalable y puede servir como punto de partida para proyectos más avanzados.
+
+## Aplicación en Dispositivos de Salud
+El prototipo tiene un potencial significativo en el campo de la salud. Puede ser el primer paso hacia el desarrollo de dispositivos médicos que utilicen sensores biométricos para monitorear la salud de los pacientes. Además, su diseño modular permite la integración en consultorios médicos de base y su acoplamiento a camillas o mesillas de chequeo médico.
+
+
+
+# Origen del Sensor de Temperatura DS18B20
 
 ## Acerca del Sensor
 ![Sensor DS18B20](https://chips.mecatronium.com/wp-content/uploads/2018/04/Sensor-Temperatura-Waterproof-DS18b20-temperature-probe-temperature-sensor-18B20-1-1.jpg_640x640-1-1.jpg)
