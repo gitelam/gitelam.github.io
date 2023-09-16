@@ -1,4 +1,4 @@
-# Prototipo de Medidor de Temperatura - Potencial en Dispositivos de Salud
+![Sensor-Temperatura-Waterproof-DS18b20-temperature-probe-temperature-sensor-18B20-1-1 jpg_640x640-1-1](https://github.com/gitelam/gitelam.github.io/assets/117864220/57c6b257-bc3c-4abb-9a13-e743a4f0697e)# Prototipo de Medidor de Temperatura - Potencial en Dispositivos de Salud
 
 ## Idea
 El prototipo de Medidor de Temperatura tiene como objetivo principal la creación de un esbozo funcional de un dispositivo de seguimiento de la salud personal. Este prototipo se enfoca en la medición de la temperatura corporal, pero su diseño es esquemático y simplificado para fines de demostración y desarrollo temprano. Se contempla su potencial en futuros dispositivos de salud más avanzados.
@@ -8,6 +8,7 @@ El prototipo de Medidor de Temperatura tiene como objetivo principal la creació
 Este código en Python es parte de un prototipo de medidor de temperatura diseñado para demostrar la funcionalidad básica de medición de temperatura corporal utilizando un sensor DS18B20 y una Raspberry Pi Pico W. El prototipo muestra los valores de temperatura en la consola en tiempo real.
 
 # Origen del Sensor de Temperatura DS18B20
+![Sensor DS18B20](https://chips.mecatronium.com/wp-content/uploads/2018/04/Sensor-Temperatura-Waterproof-DS18b20-temperature-probe-temperature-sensor-18B20-1-1.jpg_640x640-1-1.jpg)
 
 ## Acerca del Sensor
 El **DS18B20** es un sensor de temperatura digital de alta precisión fabricado por Maxim Integrated. Es ampliamente utilizado en proyectos de electrónica y aplicaciones industriales debido a su simplicidad y precisión en la medición de temperatura.
