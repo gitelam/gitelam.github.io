@@ -20,7 +20,7 @@ Lo que hace que el tubo de Geiger-Müller sea tan efectivo como sensor es su cap
 
 ## Justificación como Sensor
 
-El tubo de Geiger-Müller se considera un sensor por varias razones:
+El tubo de Geiger-Müller se considera un sensor **electrónico** por varias razones:
 
 1. **Sensibilidad:** Es extremadamente sensible a la radiación ionizante, lo que permite la detección incluso de pequeñas cantidades de radiación.
 
