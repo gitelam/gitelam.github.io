@@ -17,15 +17,33 @@ El código hace uso de las siguientes bibliotecas y componentes clave:
 
 ## Configuración Inicial
 Antes de iniciar la medición de temperatura, se realiza la configuración inicial:
+# Relaciones entre Elementos - Prototipo de Medidor de Temperatura
 
-```python
-import machine
-import onewire, ds18x20
-import time
+## Componentes Clave
 
-sensor_pin = machine.Pin(4)
+El prototipo de medidor de temperatura utiliza varios componentes clave que trabajan juntos para medir y mostrar la temperatura. Estos componentes incluyen:
 
-ow = onewire.OneWire(sensor_pin)
-ds = ds18x20.DS18X20(ow)
+- **Raspberry Pi Pico W:** Es la plataforma de desarrollo utilizada para controlar y comunicarse con el sensor DS18B20 y procesar los datos de temperatura.
 
-roms = ds.scan()
+- **Sensor de Temperatura DS18B20:** Este sensor se encarga de medir la temperatura corporal. Se comunica con la Raspberry Pi Pico W a través del protocolo OneWire.
+
+- **Bibliotecas Python:** El código Python utiliza las bibliotecas `machine`, `onewire`, y `ds18x20` para interactuar con el hardware y obtener datos del sensor.
+
+## Relaciones y Flujo de Datos
+
+El flujo de datos y las relaciones entre los componentes son los siguientes:
+
+1. **Configuración Inicial:** La Raspberry Pi Pico W se configura para utilizar un pin GPIO específico (`sensor_pin`) para conectar el sensor DS18B20. También se establece una conexión a través del protocolo OneWire.
+
+2. **Escaneo de Dispositivos:** El código escanea el bus OneWire en busca de dispositivos DS18B20 conectados y almacena sus direcciones en `roms`.
+
+3. **Medición de Temperatura:** El bucle principal del código inicia la medición de temperatura para cada dispositivo DS18B20 detectado en `roms`. Esto implica la conversión de temperatura y la lectura de datos.
+
+4. **Muestra de Datos en Consola:** Los valores de temperatura medidos se muestran en la consola de la Raspberry Pi Pico W en tiempo real.
+
+5. **Repetición Continua:** El bucle principal se ejecuta de manera continua, lo que permite una monitorización constante de la temperatura corporal. El código realiza mediciones periódicas y muestra los resultados en la consola.
+
+## Potencial de Escalabilidad
+
+Aunque este prototipo es esquemático y rudimentario, sienta las bases para futuros desarrollos y aplicaciones en dispositivos de salud más avanzados. Su diseño modular permite la incorporación de sensores adicionales y la expansión de las funcionalidades para aplicaciones médicas especializadas.
+
