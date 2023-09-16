@@ -3,10 +3,30 @@
 ## Idea
 El prototipo de Medidor de Temperatura tiene como objetivo principal la creación de un esbozo funcional de un dispositivo de seguimiento de la salud personal. Este prototipo se enfoca en la medición de la temperatura corporal, pero su diseño es esquemático y simplificado para fines de demostración y desarrollo temprano. Se contempla su potencial en futuros dispositivos de salud más avanzados.
 
-# Explicación del Código - Prototipo de Medidor de Temperatura
 
 ## Resumen
 Este código en Python es parte de un prototipo de medidor de temperatura diseñado para demostrar la funcionalidad básica de medición de temperatura corporal utilizando un sensor DS18B20 y una Raspberry Pi Pico W. El prototipo muestra los valores de temperatura en la consola en tiempo real.
+
+# Origen del Sensor de Temperatura DS18B20
+
+## Acerca del Sensor
+El **DS18B20** es un sensor de temperatura digital de alta precisión fabricado por Maxim Integrated. Es ampliamente utilizado en proyectos de electrónica y aplicaciones industriales debido a su simplicidad y precisión en la medición de temperatura.
+
+## Características Principales
+- **Precisión:** El DS18B20 ofrece una alta precisión en la medición de temperatura, con resoluciones configurables de hasta 12 bits.
+- **Interfaz de Un Solo Cable:** Es especialmente conocido por su interfaz de un solo cable (OneWire), que simplifica su conexión a microcontroladores como la Raspberry Pi Pico W.
+- **Rango de Temperatura:** Puede medir temperaturas en un amplio rango, generalmente desde -55°C hasta +125°C.
+- **Resistente al Agua:** Algunas versiones del DS18B20 están encapsuladas en un paquete resistente al agua, lo que permite su uso en aplicaciones al aire libre y entornos húmedos.
+
+## Documentación del Fabricante
+Para obtener información técnica detallada, especificaciones y ejemplos de uso del DS18B20, puedes consultar la documentación oficial proporcionada por Maxim Integrated:
+
+[Documentación del DS18B20](https://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/DS18B20.html)
+
+## Hoja de Datos (Datasheet)
+Aquí puedes acceder a la hoja de datos completa del DS18B20, que incluye detalles técnicos y guías de aplicación:
+
+[Descargar Hoja de Datos (PDF)](https://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/DS18B20.html)
 
 ## Componentes Clave
 El código hace uso de las siguientes bibliotecas y componentes clave:
@@ -44,4 +64,5 @@ El flujo de datos y las relaciones entre los componentes son los siguientes:
 ## Potencial de Escalabilidad
 
 Aunque este prototipo es esquemático y rudimentario, sienta las bases para futuros desarrollos y aplicaciones en dispositivos de salud más avanzados. Su diseño modular permite la incorporación de sensores adicionales y la expansión de las funcionalidades para aplicaciones médicas especializadas.
+
 
