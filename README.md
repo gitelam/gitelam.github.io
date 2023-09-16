@@ -15,8 +15,6 @@ El código hace uso de las siguientes bibliotecas y componentes clave:
 
 - `onewire` y `ds18x20`: Estas bibliotecas se utilizan para comunicarse con el sensor de temperatura DS18B20 a través del protocolo OneWire. `ds18x20` facilita la lectura de datos del sensor.
 
-## Configuración Inicial
-Antes de iniciar la medición de temperatura, se realiza la configuración inicial:
 # Relaciones entre Elementos - Prototipo de Medidor de Temperatura
 
 ## Componentes Clave
