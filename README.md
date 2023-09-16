@@ -1,4 +1,4 @@
-![Sensor-Temperatura-Waterproof-DS18b20-temperature-probe-temperature-sensor-18B20-1-1 jpg_640x640-1-1](https://github.com/gitelam/gitelam.github.io/assets/117864220/57c6b257-bc3c-4abb-9a13-e743a4f0697e)# Prototipo de Medidor de Temperatura - Potencial en Dispositivos de Salud
+# Prototipo de Medidor de Temperatura - Potencial en Dispositivos de Salud
 
 ## Idea
 El prototipo de Medidor de Temperatura tiene como objetivo principal la creación de un esbozo funcional de un dispositivo de seguimiento de la salud personal. Este prototipo se enfoca en la medición de la temperatura corporal, pero su diseño es esquemático y simplificado para fines de demostración y desarrollo temprano. Se contempla su potencial en futuros dispositivos de salud más avanzados.
