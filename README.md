@@ -18,12 +18,6 @@ En resumen, este Prototipo de Medidor de Temperatura sirve como una representaci
 
 # Prototipo de Medidor de Temperatura - Potencial en Dispositivos de Salud
 
-## Idea
-El prototipo de Medidor de Temperatura tiene como objetivo principal la creación de un esbozo funcional de un dispositivo de seguimiento de la salud personal. Este prototipo se enfoca en la medición de la temperatura corporal, pero su diseño es esquemático y simplificado para fines de demostración y desarrollo temprano. Se contempla su potencial en futuros dispositivos de salud más avanzados.
-
-## Funcionalidad
-El prototipo ofrece una funcionalidad básica para la medición de la temperatura corporal y sirve como punto de partida para proyectos más elaborados:
-
 ```python
 import machine
 import onewire, ds18x20
